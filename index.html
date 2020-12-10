@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=utf-8 />
+<title>Reproducción m3u8 embed</title>
+  
+  <!--
+
+  Uses the latest versions of video.js and videojs-contrib-hls.
+
+  To use specific versions, please change the URLs to the form:
+
+  <link href="https://unpkg.com/video.js@5.16.0/dist/video-js.css" rel="stylesheet">
+  <script src="https://unpkg.com/video.js@5.16.0/dist/video.js"></script>
+  <script src="https://unpkg.com/videojs-contrib-hls@4.1.1/dist/videojs-contrib-hls.js"></script>
+
+  -->
+
+  <link href="video-js.css" rel="stylesheet">
+  <script src="video.js"></script>
+  <script src="videojs-contrib-hls.js"></script>
+  
+</head>
+<body>
+  <h1>Reproducción m3u8 Embed</h1>
+
+  <video id="my_video_1" class="video-js vjs-default-skin" controls preload="auto" width="640" height="268" 
+  data-setup='{}'>
+    <source src="http://a3live-lh.akamaihd.net/i/a3shds/geoa3series_1@122775/index_2_av-b.m3u8" type="application/x-mpegURL">
+  </video>
+  
+  <script>
+  </script>
+  
+</body>
+</html>
